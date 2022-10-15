@@ -182,9 +182,70 @@ console.log((sentMtch.match(/because/gi)).length);
 
 const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
 
-let newSentence = sentence.replace(/[^a-zA-Z0-9.? ]/g, '');
-
+let newSentence = sentence.replace(/[^a-zA-Z0-9.?, ]/g, '');
 console.log(newSentence);
+console.log(newSentence.match(/i/gi).length);
+console.log(newSentence.match(/am/gi).length);
+console.log(newSentence.match(/teacher/gi).length);
+console.log(newSentence.match(/a/gi).length);
+console.log(newSentence.match(/and/gi).length);
+console.log(newSentence.match(/love/gi).length);
+console.log(newSentence.match(/teaching/gi).length);
+console.log(newSentence.match(/there/gi).length);
+console.log(newSentence.match(/is/gi).length);
+console.log(newSentence.match(/nothing/gi).length);
+console.log(newSentence.match(/as/gi).length);
+console.log(newSentence.match(/more/gi).length);
+console.log(newSentence.match(/rewarding/gi).length);
+console.log(newSentence.match(/educating/gi).length);
+console.log(newSentence.match(/empowering/gi).length);
+console.log(newSentence.match(/people/gi).length);
+console.log(newSentence.match(/found/gi).length);
+console.log(newSentence.match(/interesting/gi).length);
+console.log(newSentence.match(/than/gi).length);
+console.log(newSentence.match(/any/gi).length);
+console.log(newSentence.match(/other/gi).length);
+console.log(newSentence.match(/jobs/gi).length);
+console.log(newSentence.match(/does/gi).length);
+console.log(newSentence.match(/this/gi).length);
+console.log(newSentence.match(/motivate/gi).length);
+console.log(newSentence.match(/you/gi).length);
+console.log(newSentence.match(/to/gi).length);
+console.log(newSentence.match(/be/gi).length);
+console.log(newSentence.match(/30DaysOfJavaScript/gi).length);
+console.log(newSentence.match(/also/gi).length);
+console.log(newSentence.match(/the/gi).length);
+console.log(newSentence.match(/result/gi).length);
+console.log(newSentence.match(/of/gi).length);
+console.log("The most frequent word in the sentence is 'a' occurring" + ' ' + newSentence.match(/a/gi).length + ' ' + "times in the sentence.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
