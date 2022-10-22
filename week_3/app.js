@@ -75,35 +75,35 @@ console.log(date.getTime());
 
 // Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
-// let base = prompt('Enter Base of the Triangle:');
-// let height = prompt('Enter Height of the Triangle:');
-// let area = 1/2 * base * height;
-// alert(`The area of the Triangle is ${area}`);
+let base = prompt('Enter Base of the Triangle:');
+let height = prompt('Enter Height of the Triangle:');
+let area = 1/2 * base * height;
+alert(`The area of the Triangle is ${area}`);
 
 // Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-// let sideA = prompt('Enter Side A of the Triangle:');
-// let sideB = prompt('Enter Side B of the Triangle:');
-// let sideC = prompt('Enter Side C of the Triangle:');
-// let perimeterOfTriangle = sideA + sideB + sideC;
-// alert(`The perimeter of the Triangle is ${perimeterOfTriangle}`);
+let sideA = prompt('Enter Side A of the Triangle:');
+let sideB = prompt('Enter Side B of the Triangle:');
+let sideC = prompt('Enter Side C of the Triangle:');
+let perimeterOfTriangle = sideA + sideB + sideC;
+alert(`The perimeter of the Triangle is ${perimeterOfTriangle}`);
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
-// let length = prompt('Enter the length of the rectangle:');
-// let width = prompt('Enter the width of the rectangle:');
-// let perimeterOfRectangle = 2 * (length * width);
-// let areaOfRectangle = length * width;
-// alert(`The perimeter of the Rectangle is ${perimeterOfRectangle}`);
-// alert(`The area of the Rectangle is ${areaOfRectangle}`);
+let length = prompt('Enter the length of the rectangle:');
+let width = prompt('Enter the width of the rectangle:');
+let perimeterOfRectangle = 2 * (length * width);
+let areaOfRectangle = length * width;
+alert(`The perimeter of the Rectangle is ${perimeterOfRectangle}`);
+alert(`The area of the Rectangle is ${areaOfRectangle}`);
 // Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
-// let r = prompt('Enter the radius of the circle');
-// const pi = 3.14;
-// let areaOfCircle = pi * (r**2);
-// let c = 2 * pi * r;
-// alert(`The area of the Circle is ${areaOfCircle}`);
-// alert(`The circumference of the Circle is ${c}`);
+let r = prompt('Enter the radius of the circle');
+const pi = 3.14;
+let areaOfCircle = pi * (r**2);
+let circumference = 2 * pi * r;
+alert(`The area of the Circle is ${areaOfCircle}`);
+alert(`The circumference of the Circle is ${circumference}`);
 
 // Calculate the slope, x-intercept and y-intercept of y = 2x -2?
 
@@ -135,10 +135,10 @@ console.log(y);
 
 // Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-// let hrs = prompt('Enter number of hours:');
-// let rate = prompt('Enter the rate per hour:');
-// let pay = hrs * rate;
-// alert (`Your pay is ${pay}`);
+let hr = prompt('Enter number of hours:');
+let rate = prompt('Enter the rate per hour:');
+let pay = hr * rate;
+alert (`Your pay is ${pay}`);
 
 // If the length of your name is greater than 7 say, your name is long else say your name is short.
 
@@ -166,18 +166,18 @@ console.log(`You are ${ageDiff} years older than me.`);
 
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
-// let userYear = prompt('Enter birth year:');
-// let current = new Date();
-// let userAge = current.getFullYear() - Number(userYear);
-// console.log(
-//     userAge >= 18 ? `You are ${userAge}. You are old enough to drive
-//     ` : `You are ${userAge}. You will be allowed to drive after ${18-userAge} years.
-//     `);
+let userYear = prompt('Enter birth year:');
+let current = new Date();
+let userAge = current.getFullYear() - Number(userYear);
+console.log(
+    userAge >= 18 ? `You are ${userAge}. You are old enough to drive
+    ` : `You are ${userAge}. You will be allowed to drive after ${18-userAge} years.
+    `);
 
 // Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. 
 
-// let numYears = prompt('Enter the number of years you want to live:');
-// alert(`You can live ${3600 * 24 * 365 * numYears} seconds`);
+let numYears = prompt('Enter the number of years you want to live:');
+alert(`You can live ${3600 * 24 * 365 * numYears} seconds`);
 
 // Create a human readable time format using the Date time object
 const calendar = new Date();
